@@ -1,6 +1,2 @@
 requests
-random
-time
-json
 colorama
-asciimatics
