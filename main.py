@@ -30,8 +30,6 @@ def menu1():
     os.system("apt upgrade && update")
     os.system("apt install openssl")
     os.system("pkg install python")
-    os.system("pkg install git")
-    os.system("git clone https://github.com/bangpateng/Push-Level-Discord-On-Termux")
     os.chdir("Push-Level-Discord-On-Termux")
     os.system("pip install -r requirements.txt")
     print("Installed! Selesai Lanjut ke Nomer 2")
