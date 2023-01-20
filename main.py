@@ -29,7 +29,6 @@ def menu1():
     print("Installing...")
     os.system("apt upgrade && update")
     os.system("apt install openssl")
-    os.system("pkg install python")
     os.system("pip install -r requirements.txt")
     print("Installed! Selesai Lanjut ke Nomer 2")
 
@@ -88,7 +87,7 @@ def menu2():
 # Pemanggilan menu
 while True:
     print("Menu Nya bang Siapkan Kopi Rokonya:\n")
-    print("1. Instal Python & Clone Git")
+    print("1. Instal Bahan")
     print("2. Jalankan Program")
     print("3. Keluar\n")
     choice = int(input("Masukkan pilihan: \n"))
