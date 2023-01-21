@@ -20,7 +20,7 @@ print("Telegram: " + telegram)
 youtube = "Bang Pateng"
 print("Youtube: " + youtube)
 print("===========================================")
-print('PERINGATAN : TIDAK UNTUK DI PERJUAL-BELIKAN | TOLONG HARGAI PEMBUAT')
+print('PERINGATAN : TIDAK UNTUK DI PERJUAL-BELIKAN')
 print("===========================================\n")
 
 time.sleep(1)
